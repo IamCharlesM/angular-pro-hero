@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 
-import { FormsModule } from "@angular/forms"; // This is where the NgModel lives
+import { FormsModule } from "@angular/forms";
+import { HeroDetailComponent } from './hero-detail/hero-detail.component'; // This is where the NgModel lives
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeroDetailComponent
   ],
   imports: [
     BrowserModule,
